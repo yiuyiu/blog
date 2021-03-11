@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: markdown 基本用法
+date: "2021-03-08"
+description: 在gatsby中使用markdown
 ---
 
 This is my first post on my new fake blog! How exciting!
@@ -45,7 +45,6 @@ This is a paragraph.
 
     Header 1
     ========
-
     Header 2
     --------
 
@@ -68,28 +67,9 @@ This is a paragraph.
     ##### Header 5
     ###### Header 6
 
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
 > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 > ## This is a header.
 >
@@ -137,14 +117,14 @@ This is a paragraph.
 - `code goes` here in this line
 - **bold** goes here
 
-```markdown
+
 - `code goes` here in this line
 - **bold** goes here
-```
+
 
 1. Buy flour and salt
-1. Mix together with water
-1. Bake
+2. Mix together with water
+3. Bake
 
 ```markdown
 1. Buy flour and salt
@@ -197,6 +177,7 @@ This is [an example](http://example.com "Example") link.
 This is [an example][id] reference-style link.
 
 [id]: http://example.com "Optional Title"
+
 
     This is [an example](http://example.com "Example") link.
 
