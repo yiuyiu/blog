@@ -60,6 +60,7 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --color-text-link: #d23669;
 }
 
 /* HTML elements */
@@ -230,7 +231,8 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
+  color: var(--color-text-link);
 }
 
 a:hover,
@@ -270,7 +272,8 @@ a:focus {
 
 .post-list-item h2 {
   font-size: var(--fontSize-4);
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
+  color: var(--color-text-link);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
 }
