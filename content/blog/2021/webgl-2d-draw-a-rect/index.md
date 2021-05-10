@@ -45,7 +45,7 @@ webgl坐标，内部坐标对应裁剪坐标系，坐标中心在原点，范围
 
 1. 创建数据容器 `buffer = gl.createBuffer()`
 2. 将 `buffer` 绑定到特定的值  `gl.bindBuffer(gl.ARRAY_BUFFER,buffer)` 之后操作 `buffer` 都是从这个 `gl.ARRAY_BUFFER` 上操作
-3. 调用 `gl.bufferData()` 将数据写入 `buffer` 
+3. 调用 `gl.bufferData()`，设置buffer的相关属性，多大容量以及用途
 4. 从着色器程序中拿出特定的attribute的地址。 `gl.getAttribLocation()` 进而可以设置怎么往这个地址里喂数据
 5. 开启attribute `gl.enableVertexAttribArray()`, 使得attribute可以从 `gl.ARRAY_BUFFER`中拿数据
 6. 设置attribute每次着色器执行时，attribute的值如何被取值（从buffer中取的数据的初始位置，每次取的数据的偏移stride, 每次取数据的数量size, 是否归一化数据） `gl.vertexAttribPointer`
