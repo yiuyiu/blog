@@ -1,7 +1,7 @@
 ---
-title: WebGL绘制一个矩形
+title: WebGL绘制3d立方体
 date: "2021-05-10"
-description: 了解在webgl在3d中的基础使用，了解透视投影的相关概念
+description: 了解在webgl在3d中的基础使用，了解正交、透视投影以及相机的基本概念
 ---
 [在线地址](https://webgl-practice-delta.vercel.app/camera)
 ### 和绘制2d不同的地方
